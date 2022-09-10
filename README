@@ -1,0 +1,35 @@
+Nume: Dinuta Eduard-Stefan
+Grupa: 311CA
+
+Now you see me - Tema 1
+
+Descriere:
+
+	Programul foloseste liste dublu inlantuite generice pentru a impleneta
+diferite operatii cu pachete de carti. Codul este organizat in mai multe
+fisiere. Primul fisier, tema1.c primeste comenzile de la utilizator si
+se asigura ca acestea sunt corecte prin verificarea parametrilor. Programul
+poate adauga sau sterge un pachet de carti, sa adauge sau sa stearga carti 
+dintr-un pachet, sa afiseze numarul de pachete, numarul de carti dintr-un
+pachet, sa amestece un pachet, sa combine sau sa separe pachete, sa inverseze
+ordinea cartile, sa afiseze cartile dintr-un pachet sau din toate si sa sorteze
+cartile dintr-un pachet dupa valoare si simbol.
+	Fiecarei comenzi ii corespunde o functie din headerul card_decks.h, 
+care citeste parametri dati de utilizator, verifica daca operatia poate fi
+realizata si apeleaza functiile necesare pentru prelucrarea pachetelor, afisand
+la final un mesaj corespunzator.
+	In headerul lists.h se gasesc functii care implementeaza operatii pe
+liste dublu inlantuite, folosite in realizarea comenzilor.
+
+Comentarii asupra temei:
+
+	Cred ca as fi putut trata mai elegant anumite aspecte ale temei, cum ar
+fi parsarea comenzilor si maparea simbolurilor la numere in locul folosirii de
+stringuri, dar in mare parte sunt multumit de aceasta implementare.
+	Aceasta tema m-a ajutat sa aprofundez lucrul cu liste si mai ales sa
+realizez importanta genericitatii functiilor si structurilor de date. Folosirea
+unor liste generice a facut implementarea mult mai usoara, intrucat functiile 
+au putut fi refolosite atat pentru lucrul cu pachete din lista cea mare, dar si
+pentru prelucrarea cartilor dintr-un anumit pachet, ceea ce ar fi fost mult mai
+greu implementand o structura pentru fiecare tip de date.
+
